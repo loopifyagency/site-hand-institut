@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Hand Institut — Institut de beauté et ongles à Brest</title>
+  <meta name="description" content="Hand Institut, institut de beauté au 10 rue Keravel à Brest : manucure, semi-permanent, pose complète, nail art et massage des mains. Réservez en ligne ou au 09 83 60 51 31.">
+  <meta name="theme-color" content="#6E4742">
+  <meta name="format-detection" content="telephone=no">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Hand Institut">
+  <meta property="og:title" content="Hand Institut — Institut de beauté et ongles à Brest">
+  <meta property="og:description" content="Manucure, semi-permanent, pose complète, nail art et massage des mains, au 10 rue Keravel à Brest. Prenez rendez-vous en ligne.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <link rel="preload" href="fonts/bodoni-moda-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/bodoni-moda-latin-opsz-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/jost-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <noscript><style>.loader{display:none!important}</style></noscript>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["BeautySalon", "NailSalon"],
+    "name": "Hand Institut",
+    "description": "Institut de beauté à Brest : manucure, semi-permanent, pose complète, nail art et massage des mains.",
+    "telephone": "+33983605131",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "10 Rue Keravel",
+      "postalCode": "29200",
+      "addressLocality": "Brest",
+      "addressRegion": "Bretagne",
+      "addressCountry": "FR"
+    },
+    "areaServed": "Brest",
+    "hasMap": "https://maps.app.goo.gl/Mu6RtvkXkr82gVrv5",
+    "sameAs": ["https://www.planity.com/hand-institut-29200-brest"],
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "09:30", "closes": "15:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "09:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "09:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "09:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "17:30" }
+    ],
+    "potentialAction": {
+      "@type": "ReserveAction",
+      "target": "https://www.planity.com/hand-institut-29200-brest",
+      "result": { "@type": "Reservation", "name": "Rendez-vous chez Hand Institut" }
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <!-- ═════════ PRÉCHARGEUR ═════════ -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__panel">
+      <div class="loader__center">
+        <svg class="loader__nail" viewBox="0 0 120 170" fill="none">
+          <defs>
+            <clipPath id="loaderNailClip"><path d="M12 162V62C12 28 34 8 60 8s48 20 48 54v100Z"/></clipPath>
+          </defs>
+          <g clip-path="url(#loaderNailClip)">
+            <rect class="loader__fill" x="0" y="0" width="120" height="170"/>
+          </g>
+          <path class="loader__stroke" d="M12 162V62C12 28 34 8 60 8s48 20 48 54v100Z"/>
+          <path class="loader__shine" d="M34 70c0-18 8-34 20-42" />
+        </svg>
+        <p class="loader__name"><span>Hand</span> <em>Institut</em></p>
+      </div>
+      <p class="loader__count"><span id="loaderCount">0</span><small>%</small></p>
+    </div>
+    <svg class="loader__edge" viewBox="0 0 100 12" preserveAspectRatio="none"><path d="M0 0h100v2C80 11 20 11 0 2Z"/></svg>
+  </div>
+
+  <div class="progress" aria-hidden="true"><i id="progressBar"></i></div>
+  <div class="cursor" id="cursor" aria-hidden="true"><i class="cursor__dot"></i><span class="cursor__ring"><b class="cursor__label"></b></span></div>
+
+  <!-- ═════════ NAVIGATION ═════════ -->
+  <header class="nav" id="nav">
+    <a class="brand" href="#top" aria-label="Hand Institut, retour en haut de page">
+      <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+        <circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="1.2"/>
+        <text x="24" y="30.5" text-anchor="middle">HI</text>
+      </svg>
+      <span class="brand__name"><span>Hand</span> <em>Institut</em></span>
+    </a>
+    <nav class="nav__links" aria-label="Navigation principale">
+      <a class="link" href="#prestations">Prestations</a>
+      <a class="link" href="#nuancier">Nuancier</a>
+      <a class="link" href="#salon">Le salon</a>
+      <a class="link" href="#avis">Avis</a>
+      <a class="link" href="#infos">Infos</a>
+    </nav>
+    <a class="btn btn--sm btn--ink" href="https://www.planity.com/hand-institut-29200-brest" target="_blank" rel="noopener" data-magnetic>
+      <span class="btn__label">Rendez-vous</span>
+    </a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <div class="menu__inner">
+      <nav aria-label="Menu mobile">
+        <ul>
+          <li><a href="#prestations"><span class="menu__txt">Prestations</span></a></li>
+          <li><a href="#nuancier"><span class="menu__txt">Nuancier</span></a></li>
+          <li><a href="#salon"><span class="menu__txt">Le salon</span></a></li>
+          <li><a href="#avis"><span class="menu__txt">Avis</span></a></li>
+          <li><a href="#infos"><span class="menu__txt">Infos</span></a></li>
+        </ul>
+      </nav>
+      <div class="menu__foot">
+        <a class="btn btn--light" href="https://www.planity.com/hand-institut-29200-brest" target="_blank" rel="noopener"><span class="btn__label">Prendre rendez-vous</span></a>
+        <a class="menu__tel" href="tel:+33983605131">09 83 60 51 31</a>
+        <p>10 rue Keravel · 29200 Brest</p>
+      </div>
+    </div>
+  </div>
+
+  <main id="contenu">
+
+    <!-- ═════════ 1 · HERO ═════════ -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__glow"></div>
+        <svg class="hero__ring" viewBox="0 0 600 600" fill="none">
+          <circle cx="300" cy="300" r="296" stroke="currentColor" stroke-width="1"/>
+          <circle cx="300" cy="300" r="238" stroke="currentColor" stroke-width="1" stroke-dasharray="2 9"/>
+        </svg>
+      </div>
+
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <h1 class="hero__title" id="hero-title" aria-label="Vos ongles, sur mesure.">
+            <span class="line" aria-hidden="true"><span class="line__in">Vos ongles,</span></span>
+            <span class="line" aria-hidden="true"><span class="line__in"><em>sur mesure.</em></span></span>
+          </h1>
+          <p class="hero__lead">Institut de beauté à Brest&nbsp;: manucure, semi-permanent, pose complète et nail art. Dans un salon calme, on prend le temps de vous écouter — puis on termine en douceur, par un massage des mains.</p>
+          <div class="hero__cta">
+            <a class="btn btn--ink" href="https://www.planity.com/hand-institut-29200-brest" target="_blank" rel="noopener" data-magnetic>
+              <span class="btn__label">Prendre rendez-vous</span>
+              <svg class="btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="link link--phone" href="tel:+33983605131">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg>
+              09 83 60 51 31
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__stage" data-hero-stage>
+          <div class="hand" data-hand>
+            <figure class="finger finger--thumb" style="--h:44%">
+              <div class="finger__in"><img src="img/ongles-violet.webp" width="585" height="975" alt="Mains aux ongles violets, un ongle pailleté violet foncé et un ongle orné d'un motif floral" fetchpriority="high" decoding="async" style="object-position:48% 42%"></div>
+            </figure>
+            <figure class="finger finger--index" style="--h:70%">
+              <div class="finger__in"><img src="img/facade.webp" width="672" height="894" alt="Façade grise de Hand Institut, rue Keravel à Brest, avec le monogramme HI sur la vitrine et deux buis en pots" fetchpriority="high" decoding="async" style="object-position:50% 40%"></div>
+            </figure>
+            <figure class="finger finger--middle" style="--h:88%">
+              <div class="finger__in"><img src="img/ongles-rouge.webp" width="606" height="810" alt="Main aux ongles courts et ovales, vernis d'un rouge profond brillant" fetchpriority="high" decoding="async" style="object-position:52% 42%"></div>
+            </figure>
+            <figure class="finger finger--ring" style="--h:74%">
+              <div class="finger__in"><img src="img/ongles-champagne.webp" width="672" height="894" alt="Main aux ongles vernis rose champagne pailleté, avec une bague dorée" fetchpriority="high" decoding="async" style="object-position:40% 30%"></div>
+            </figure>
+            <figure class="finger finger--pinky" style="--h:56%">
+              <div class="finger__in"><img src="img/salon-interieur.webp" width="672" height="894" alt="Intérieur de l'institut : table de manucure blanche, lampe annulaire, chaise grise et moquette rosée" fetchpriority="high" decoding="async" style="object-position:40% 55%"></div>
+            </figure>
+          </div>
+
+          <div class="hero__drops" aria-hidden="true">
+            <svg class="drop drop--a" viewBox="0 0 100 130"><path d="M50 2C50 2 10 52 10 82a40 40 0 0 0 80 0C90 52 50 2 50 2Z"/><ellipse cx="33" cy="82" rx="6" ry="14" transform="rotate(18 33 82)"/></svg>
+            <svg class="drop drop--b" viewBox="0 0 100 130"><path d="M50 2C50 2 10 52 10 82a40 40 0 0 0 80 0C90 52 50 2 50 2Z"/><ellipse cx="33" cy="82" rx="6" ry="14" transform="rotate(18 33 82)"/></svg>
+            <svg class="drop drop--c" viewBox="0 0 100 130"><path d="M50 2C50 2 10 52 10 82a40 40 0 0 0 80 0C90 52 50 2 50 2Z"/><ellipse cx="33" cy="82" rx="6" ry="14" transform="rotate(18 33 82)"/></svg>
+          </div>
+        </div>
+
+        <a class="badge" href="#rendez-vous" aria-label="Découvrir le déroulé d'un rendez-vous">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <defs><path id="badgePath" d="M60 60m-45 0a45 45 0 1 1 90 0a45 45 0 1 1-90 0"/></defs>
+            <text class="badge__text"><textPath href="#badgePath" textLength="278" lengthAdjust="spacing">HAND INSTITUT · BREST · ONGLES &amp; MAINS · </textPath></text>
+          </svg>
+          <svg class="badge__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ═════════ 2 · MARQUEE ═════════ -->
+    <div class="marquees" aria-hidden="true">
+      <div class="marquee marquee--a" data-marquee="1">
+        <div class="marquee__track">
+          <div class="marquee__group">
+            <span>Manucure</span><i></i><span class="is-out">Semi-permanent</span><i></i><span>Pose complète</span><i></i><span class="is-out">Nail art</span><i></i><span>Massage des mains</span><i></i><span class="is-out">Brest</span><i></i>
+          </div>
+        </div>
+      </div>
+      <div class="marquee marquee--b" data-marquee="-1">
+        <div class="marquee__track">
+          <div class="marquee__group">
+            <span>Soin</span><i></i><span>Couleur</span><i></i><span>Brillance</span><i></i><span>Douceur</span><i></i><span>Précision</span><i></i><span>Écoute</span><i></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═════════ 3 · LE RENDEZ-VOUS (section pinnée) ═════════ -->
+    <section class="story" id="rendez-vous" aria-labelledby="story-title">
+      <div class="story__pin">
+        <div class="story__bgs" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+        <h2 class="story__title" id="story-title" data-split>Un rendez-vous, <em>étape par étape</em></h2>
+
+        <div class="story__stage">
+          <div class="story__rail" aria-hidden="true">
+            <span class="story__rail-line"><i class="story__rail-fill"></i></span>
+            <span class="story__rail-count"><b id="storyNum">01</b> / 04</span>
+          </div>
+
+          <article class="step" data-step="0">
+            <div class="step__text">
+              <p class="step__num" aria-hidden="true" data-num="01"></p>
+              <h3 class="step__title">On s'installe.</h3>
+              <p>Avant de sortir la moindre lime, on prend le temps de regarder vos mains et d'écouter ce que vous voulez&nbsp;: une forme, une longueur, une couleur — ou simplement des ongles enfin solides.</p>
+            </div>
+            <div class="step__media arch">
+              <img src="img/salon-interieur.webp" width="672" height="894" alt="Le salon : une grande table blanche, une lampe douce et une chaise grise" loading="lazy" decoding="async" style="object-position:40% 60%">
+            </div>
+          </article>
+
+          <article class="step" data-step="1">
+            <div class="step__text">
+              <p class="step__num" aria-hidden="true" data-num="02"></p>
+              <h3 class="step__title">On prépare.</h3>
+              <p>Ongles limés, cuticules repoussées, peau apaisée. Le geste est précis, le matériel est propre&nbsp;: ici, l'hygiène ne se négocie pas.</p>
+            </div>
+            <div class="step__media arch">
+              <img src="img/ongles-rouge.webp" width="606" height="810" alt="Ongles courts et ovales, soigneusement limés, vernis rouge profond" loading="lazy" decoding="async" style="object-position:52% 40%">
+            </div>
+          </article>
+
+          <article class="step" data-step="2">
+            <div class="step__text">
+              <p class="step__num" aria-hidden="true" data-num="03"></p>
+              <h3 class="step__title">On pose.</h3>
+              <p>Semi-permanent, pose complète ou nail art&nbsp;: vous piochez dans un très large choix de teintes, on s'occupe du reste avec beaucoup de soin. Un ongle pailleté, une petite fleur — tout est permis.</p>
+            </div>
+            <div class="step__media arch">
+              <img src="img/ongles-violet.webp" width="585" height="975" alt="Ongles violets avec un ongle pailleté et un motif floral en nail art" loading="lazy" decoding="async" style="object-position:48% 45%">
+            </div>
+          </article>
+
+          <article class="step" data-step="3">
+            <div class="step__text">
+              <p class="step__num" aria-hidden="true" data-num="04"></p>
+              <h3 class="step__title">On chouchoute.</h3>
+              <p>On termine par de l'huile et de la crème, en massage des mains. Ce n'est pas un détail&nbsp;: c'est ce qui fait qu'on repart avec les épaules plus basses et les mains plus douces.</p>
+            </div>
+            <div class="step__media arch">
+              <img src="img/ongles-champagne.webp" width="672" height="894" alt="Une main détendue aux ongles rose champagne pailleté" loading="lazy" decoding="async" style="object-position:40% 30%">
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 4 · PRESTATIONS (défilement horizontal) ═════════ -->
+    <section class="services" id="prestations" aria-labelledby="services-title">
+      <div class="services__pin">
+        <div class="services__track">
+
+          <div class="services__intro">
+            <h2 id="services-title" data-split>Ce que vos mains <em>vont adorer</em></h2>
+            <p>Cinq façons de prendre soin de vous. Tarifs et créneaux disponibles en ligne sur Planity, ou par téléphone.</p>
+            <a class="link link--arrow" href="https://www.planity.com/hand-institut-29200-brest" target="_blank" rel="noopener">Voir les tarifs sur Planity
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <p class="services__hint" aria-hidden="true"><span></span> Faites défiler</p>
+          </div>
+
+          <article class="svc svc--manucure" data-tilt>
+            <div class="svc__art arch" aria-hidden="true">
+              <svg class="svc__icon" viewBox="0 0 80 80" fill="none"><path d="M8 68V45a5 5 0 0 1 10 0V68"/><path d="M10.5 51v4a2.5 2.5 0 0 0 5 0v-4"/><path d="M22 68V27a5 5 0 0 1 10 0V68"/><path d="M24.5 33v4a2.5 2.5 0 0 0 5 0v-4"/><path d="M36 68V17a5 5 0 0 1 10 0V68"/><path d="M38.5 23v4a2.5 2.5 0 0 0 5 0v-4"/><path d="M50 68V29a5 5 0 0 1 10 0V68"/><path d="M52.5 35v4a2.5 2.5 0 0 0 5 0v-4"/><path d="M64 68V43a5 5 0 0 1 10 0V68"/><path d="M66.5 49v4a2.5 2.5 0 0 0 5 0v-4"/><path d="M4 68h72"/></svg>
+              <i class="svc__glare"></i>
+            </div>
+            <div class="svc__body">
+              <h3>La manucure</h3>
+              <p>Ongles limés, cuticules repoussées, peau apaisée. La base de toute belle main, avec le temps qu'il faut.</p>
+            </div>
+          </article>
+
+          <article class="svc svc--semi" data-tilt>
+            <div class="svc__art arch" aria-hidden="true">
+              <svg class="svc__icon" viewBox="0 0 80 80" fill="none"><rect x="26" y="6" width="28" height="20" rx="5"/><path d="M30 26v6M50 26v6"/><path d="M22 36c0-4 4-6 8-6h20c4 0 8 2 8 6v32a6 6 0 0 1-6 6H28a6 6 0 0 1-6-6Z"/><path d="M30 50c0-6 4-10 10-10s10 4 10 10v14H30Z"/></svg>
+              <i class="svc__glare"></i>
+            </div>
+            <div class="svc__body">
+              <h3>Le semi-permanent</h3>
+              <p>Un énorme choix de couleurs, un brillant miroir et une tenue qui dure bien plus longtemps qu'un vernis classique.</p>
+            </div>
+          </article>
+
+          <article class="svc svc--pose" data-tilt>
+            <div class="svc__art arch" aria-hidden="true">
+              <svg class="svc__icon" viewBox="0 0 80 80" fill="none"><path d="M16 72V44C16 28 26 18 40 18s24 10 24 26v28"/><path d="M24 72V48C24 38 30 30 40 30s16 8 16 18v24"/><path d="M32 72V52c0-5 3-9 8-9s8 4 8 9v20"/></svg>
+              <i class="svc__glare"></i>
+            </div>
+            <div class="svc__body">
+              <h3>La pose complète</h3>
+              <p>Longueur, forme, courbe&nbsp;: des ongles construits sur mesure. Pour allonger, renforcer, ou en finir avec les ongles rongés.</p>
+            </div>
+          </article>
+
+          <article class="svc svc--art" data-tilt>
+            <div class="svc__art arch" aria-hidden="true">
+              <span class="sparkle sparkle--1"></span><span class="sparkle sparkle--2"></span><span class="sparkle sparkle--3"></span><span class="sparkle sparkle--4"></span><span class="sparkle sparkle--5"></span>
+              <svg class="svc__icon" viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="7"/><circle cx="40" cy="20" r="10"/><circle cx="59" cy="34" r="10"/><circle cx="52" cy="57" r="10"/><circle cx="28" cy="57" r="10"/><circle cx="21" cy="34" r="10"/></svg>
+              <i class="svc__glare"></i>
+            </div>
+            <div class="svc__body">
+              <h3>Le nail art</h3>
+              <p>Un ongle pailleté, un liseré fin, une petite fleur sur un seul doigt. Vous choisissez la touche, on la dessine.</p>
+            </div>
+          </article>
+
+          <article class="svc svc--massage" data-tilt>
+            <div class="svc__art arch" aria-hidden="true">
+              <svg class="svc__icon" viewBox="0 0 80 80" fill="none"><path d="M40 8C40 8 16 36 16 52a24 24 0 0 0 48 0C64 36 40 8 40 8Z"/><path d="M28 54c0 7 5 12 12 12"/></svg>
+              <i class="svc__glare"></i>
+            </div>
+            <div class="svc__body">
+              <h3>Le massage des mains</h3>
+              <p>Pour finir, huile et crème, en massage des mains. Un petit rituel devenu rare — et qu'on n'oublie pas.</p>
+            </div>
+          </article>
+
+          <div class="services__outro">
+            <p data-split>Une envie, une idée, <em>une date&nbsp;?</em></p>
+            <a class="btn btn--ink" href="https://www.planity.com/hand-institut-29200-brest" target="_blank" rel="noopener" data-magnetic><span class="btn__label">Je réserve</span></a>
+          </div>
+        </div>
+        <div class="services__bar" aria-hidden="true"><i></i></div>
+      </div>
+    </section>
+
+    <!-- ═════════ 5 · CHIFFRES CLÉS ═════════ -->
+    <section class="figures" data-dark aria-labelledby="fig-title">
+      <svg class="sep sep--top" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0H1440V86L0 10Z"/></svg>
+      <div class="wrap">
+        <h2 class="figures__title" id="fig-title" data-split>L'institut, <em>en quelques chiffres</em></h2>
+        <ul class="figures__list">
+          <li class="fig">
+            <div class="fig__nail"><i class="fig__fill"></i><span class="fig__num"><b data-count="10">10</b></span></div>
+            <p>doigts chouchoutés, un par un, à chaque rendez-vous</p>
+          </li>
+          <li class="fig">
+            <div class="fig__nail"><i class="fig__fill"></i><span class="fig__num"><b data-count="5">5</b></span></div>
+            <p>jours d'ouverture par semaine, du lundi au samedi (sauf le mercredi)</p>
+          </li>
+          <li class="fig">
+            <div class="fig__nail"><i class="fig__fill"></i><span class="fig__num"><b data-count="44">44</b></span></div>
+            <p>heures d'ouverture chaque semaine pour trouver votre créneau</p>
+          </li>
+          <li class="fig">
+            <div class="fig__nail"><i class="fig__fill"></i><span class="fig__num"><b data-count="24">24</b><small>h/24</small></span></div>
+            <p>réservation en ligne sur Planity, même quand l'institut est fermé</p>
+          </li>
+        </ul>
+      </div>
+      <svg class="sep sep--drips" viewBox="0 0 1440 150" preserveAspectRatio="xMidYMin slice" aria-hidden="true">
+        <path d="M0 0H1440V22L1411 22Q1398 22 1398 36V78A15 15 0 0 1 1368 78V36Q1368 22 1352 22L1236 22Q1222 22 1222 36V126A12 12 0 0 1 1198 126V36Q1198 22 1184 22L1104 22Q1090 22 1090 36V62A13 13 0 0 1 1064 62V36Q1064 22 1050 22L930 22Q916 22 916 36V96A14 14 0 0 1 888 96V36Q888 22 874 22L760 22Q746 22 746 36V58A11 11 0 0 1 724 58V36Q724 22 710 22L590 22Q576 22 576 36V112A13 13 0 0 1 550 112V36Q550 22 536 22L430 22Q416 22 416 36V70A12 12 0 0 1 392 70V36Q392 22 378 22L262 22Q248 22 248 36V104A14 14 0 0 1 220 104V36Q220 22 206 22L110 22Q96 22 96 36V64A11 11 0 0 1 74 64V36Q74 22 60 22L0 22Z"/>
+      </svg>
+    </section>
+
+    <!-- ═════════ 6 · NUANCIER INTERACTIF ═════════ -->
+    <section class="polish" id="nuancier" aria-labelledby="polish-title">
+      <div class="wrap polish__grid">
+        <div class="polish__copy">
+          <h2 id="polish-title" data-split>Quelle couleur <em>aujourd'hui&nbsp;?</em></h2>
+          <p>Un énorme choix de teintes, un seul réflexe&nbsp;: essayer. Choisissez un vernis, on le pose sur cette main.</p>
+
+          <fieldset class="swatches">
+            <legend class="sr-only">Choisir une couleur de vernis</legend>
+            <label class="swatch"><input type="radio" name="polish" value="#A1182B" data-name="Rouge laque" data-note="Le grand classique, qui ne se démode jamais." checked><span style="--c:#A1182B"></span><b class="sr-only">Rouge laque</b></label>
+            <label class="swatch"><input type="radio" name="polish" value="#A247C9" data-name="Orchidée" data-note="Un violet franc, pour oser sans se priver."><span style="--c:#A247C9"></span><b class="sr-only">Orchidée</b></label>
+            <label class="swatch"><input type="radio" name="polish" value="#D9AE94" data-name="Champagne" data-note="Rose doré et paillettes, pour les jours de fête."><span style="--c:#D9AE94"></span><b class="sr-only">Champagne</b></label>
+            <label class="swatch"><input type="radio" name="polish" value="#6E4742" data-name="Cacao" data-note="Notre brun chaleureux, du quotidien au dîner."><span style="--c:#6E4742"></span><b class="sr-only">Cacao</b></label>
+            <label class="swatch"><input type="radio" name="polish" value="#A1A9AC" data-name="Brume" data-note="Un gris doux et feutré, comme notre façade."><span style="--c:#A1A9AC"></span><b class="sr-only">Brume</b></label>
+            <label class="swatch"><input type="radio" name="polish" value="#E7C3BA" data-name="Nude poudré" data-note="Le naturel sublimé, discret et lumineux."><span style="--c:#E7C3BA"></span><b class="sr-only">Nude poudré</b></label>
+            <label class="swatch"><input type="radio" name="polish" value="#5A1224" data-name="Bordeaux" data-note="Profond, presque noir, très chic dès l'automne."><span style="--c:#5A1224"></span><b class="sr-only">Bordeaux</b></label>
+            <label class="swatch"><input type="radio" name="polish" value="#E8735A" data-name="Corail" data-note="Un coup de soleil posé sur les mains."><span style="--c:#E8735A"></span><b class="sr-only">Corail</b></label>
+            <label class="swatch"><input type="radio" name="polish" value="#BBA3D8" data-name="Lilas" data-note="Un pastel tendre, toujours frais."><span style="--c:#BBA3D8"></span><b class="sr-only">Lilas</b></label>
+            <label class="swatch"><input type="radio" name="polish" value="#8FA58A" data-name="Sauge" data-note="Un vert doux, naturel et inattendu."><span style="--c:#8FA58A"></span><b class="sr-only">Sauge</b></label>
+            <label class="swatch"><input type="radio" name="polish" value="#1F2A44" data-name="Bleu nuit" data-note="Intense et velouté."><span style="--c:#1F2A44"></span><b class="sr-only">Bleu nuit</b></label>
+            <label class="swatch"><input type="radio" name="polish" value="#F4EBE2" data-name="Lait" data-note="Un blanc laiteux, effet bonne mine."><span style="--c:#F4EBE2"></span><b class="sr-only">Lait</b></label>
+          </fieldset>
+
+          <p class="polish__name" aria-live="polite"><strong id="polishName">Rouge laque</strong><span id="polishNote">Le grand classique, qui ne se démode jamais.</span></p>
+
+          <div class="polish__tools">
+            <label class="toggle"><input type="checkbox" id="accentToggle"><span class="toggle__box" aria-hidden="true"></span><span>Ongle d'accent pailleté</span></label>
+            <button class="btn btn--ghost btn--sm" type="button" id="shuffleBtn" data-magnetic><span class="btn__label">Surprenez-moi</span></button>
+          </div>
+          <p class="polish__fine">Aperçu pour s'amuser&nbsp;: le vrai nuancier vous attend à l'institut.</p>
+        </div>
+
+        <div class="polish__stage" id="polishStage" aria-hidden="true">
+          <div class="polish__halo"></div>
+          <div class="pnails">
+            <div class="pfinger pfinger--thumb"><div class="pnail"><i class="pnail__old"></i><i class="pnail__new"></i><i class="pnail__glitter"></i><i class="pnail__gloss"></i></div></div>
+            <div class="pfinger pfinger--index"><div class="pnail"><i class="pnail__old"></i><i class="pnail__new"></i><i class="pnail__glitter"></i><i class="pnail__gloss"></i></div></div>
+            <div class="pfinger pfinger--middle"><div class="pnail"><i class="pnail__old"></i><i class="pnail__new"></i><i class="pnail__glitter"></i><i class="pnail__gloss"></i></div></div>
+            <div class="pfinger pfinger--ring"><div class="pnail"><i class="pnail__old"></i><i class="pnail__new"></i><i class="pnail__glitter"></i><i class="pnail__gloss"></i></div></div>
+            <div class="pfinger pfinger--pinky"><div class="pnail"><i class="pnail__old"></i><i class="pnail__new"></i><i class="pnail__glitter"></i><i class="pnail__gloss"></i></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 7 · LE SALON (la porte s'ouvre) ═════════ -->
+    <section class="salon" data-dark id="salon" aria-labelledby="salon-title">
+      <div class="salon__pin">
+        <h2 class="salon__title" id="salon-title" aria-label="Poussez la porte.">
+          <span class="salon__word salon__word--l" aria-hidden="true">Poussez</span>
+          <span class="salon__word salon__word--r" aria-hidden="true"><em>la porte.</em></span>
+        </h2>
+        <div class="salon__door arch">
+          <img class="salon__room" src="img/salon-interieur.webp" width="672" height="894" alt="Intérieur de l'institut : table de manucure blanche, lampe annulaire, chaise grise et moquette rosée" loading="lazy" decoding="async" style="object-position:40% 55%">
+          <div class="salon__leaf salon__leaf--l"><img src="img/facade.webp" width="672" height="894" alt="" loading="lazy" decoding="async" aria-hidden="true"></div>
+          <div class="salon__leaf salon__leaf--r"><img src="img/facade.webp" width="672" height="894" alt="" loading="lazy" decoding="async" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="wrap salon__text">
+        <svg class="salon__mark" viewBox="0 0 400 400" fill="none" aria-hidden="true">
+          <g class="salon__ring"><circle cx="200" cy="200" r="196" stroke="currentColor" stroke-width="1.2"/><circle cx="200" cy="200" r="158" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2 9"/></g>
+          <text x="200" y="244" text-anchor="middle">HI</text>
+        </svg>
+        <img class="salon__facade" src="img/facade.webp" width="672" height="894" alt="Façade grise de Hand Institut au 10 rue Keravel, avec le monogramme HI sur la vitre et deux buis en pots" loading="lazy" decoding="async" style="object-position:50% 40%">
+        <div class="salon__copy">
+          <p class="lead">Au 10 rue Keravel, une façade gris perle, deux buis taillés en pots et un <em>H·I</em> dessiné sur la vitre.</p>
+          <p>Derrière la porte&nbsp;: un salon feutré, une grande table blanche, une lampe douce, une moquette rosée, une orchidée sur l'étagère. On y vient pour ses ongles, on y reste pour le calme.</p>
+          <p class="salon__quote"><q>Hygiène parfaitement respectée.</q> <cite>— Audrey M</cite></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 8 · GALERIE ═════════ -->
+    <section class="gallery" aria-labelledby="gallery-title">
+      <div class="wrap">
+        <h2 class="gallery__title" id="gallery-title" data-split>Des mains <em>vues de près</em></h2>
+      </div>
+      <div class="gallery__board">
+        <div class="tile tile--a" data-speed="0.9" data-reveal="curtain" data-tilt-soft>
+          <figure class="tile__frame"><img src="img/ongles-rouge.webp" width="606" height="810" alt="Mains aux ongles courts et ovales, vernis d'un rouge profond brillant" loading="lazy" decoding="async" style="object-position:52% 45%"><figcaption><b>Ovale court</b> Rouge profond, brillant miroir</figcaption></figure>
+        </div>
+        <div class="tile tile--b" data-speed="1.25" data-reveal="curtain" data-tilt-soft>
+          <figure class="tile__frame"><img src="img/ongles-violet.webp" width="585" height="975" alt="Mains aux ongles violets avec un ongle pailleté et un ongle orné d'un motif floral" loading="lazy" decoding="async" style="object-position:48% 50%"><figcaption><b>Carré arrondi</b> Violet, paillettes et petite fleur</figcaption></figure>
+        </div>
+        <p class="gallery__word gallery__word--1" aria-hidden="true">Un geste.</p>
+        <div class="tile tile--c" data-speed="0.8" data-reveal="circle" data-tilt-soft>
+          <figure class="tile__frame"><img src="img/ongles-champagne.webp" width="672" height="894" alt="Main aux ongles vernis rose champagne pailleté, avec une bague dorée" loading="lazy" decoding="async" style="object-position:42% 30%"><figcaption><b>Rond court</b> Rose champagne pailleté</figcaption></figure>
+        </div>
+        <p class="gallery__word gallery__word--2" aria-hidden="true"><em>Une couleur.</em></p>
+        <div class="tile tile--d" data-speed="1.15" data-reveal="curtain" data-tilt-soft>
+          <figure class="tile__frame"><img src="img/salon-interieur.webp" width="672" height="894" alt="Intérieur de l'institut : table de manucure blanche, lampe annulaire, chaise grise et moquette rosée" loading="lazy" decoding="async" style="object-position:40% 55%"><figcaption><b>Le salon</b> Table blanche, lampe douce</figcaption></figure>
+        </div>
+        <div class="tile tile--e" data-speed="0.95" data-reveal="curtain" data-tilt-soft>
+          <figure class="tile__frame"><img src="img/facade.webp" width="672" height="894" alt="Façade grise de Hand Institut, rue Keravel à Brest, avec le monogramme HI et deux buis en pots" loading="lazy" decoding="async" style="object-position:50% 38%"><figcaption><b>La façade</b> 10 rue Keravel, Brest</figcaption></figure>
+        </div>
+        <p class="gallery__word gallery__word--3" aria-hidden="true">Un instant.</p>
+      </div>
+    </section>
+
+    <!-- ═════════ 9 · AVIS ═════════ -->
+    <section class="reviews" data-dark id="avis" aria-labelledby="reviews-title">
+      <div class="wrap">
+        <div class="reviews__head">
+          <h2 id="reviews-title" data-split>Elles en parlent <em>mieux que nous</em></h2>
+          <p>Des avis clients, tels qu'ils ont été écrits.</p>
+        </div>
+      </div>
+
+      <div class="carousel" id="carousel" role="region" aria-roledescription="carrousel" aria-label="Avis clients">
+        <div class="carousel__viewport" data-cursor="Glisser">
+          <div class="carousel__track" id="carouselTrack">
+            <div class="rev" role="group" aria-roledescription="diapositive" aria-label="1 sur 5">
+              <figure>
+                <blockquote class="rev__long">
+                  <p>Moment très agréable, la manucure et la pose sont réalisées avec beaucoup de soin. Énorme choix de couleurs pour le semi permanent.</p>
+                  <p>Hygiène parfaitement respectée, et ça se termine par de l'huile et de la crème en massage des mains ce qui devient rarement le cas ou alors en supplément ailleurs. FONCEZ.</p>
+                </blockquote>
+                <figcaption><span class="rev__avatar" aria-hidden="true">A</span><cite>Audrey M</cite></figcaption>
+              </figure>
+            </div>
+            <div class="rev" role="group" aria-roledescription="diapositive" aria-label="2 sur 5">
+              <figure>
+                <blockquote>
+                  <p>Merci Domi pour ce magnifique travail ! Ayant rongé mes ongles pendant ...44 ans au moins, j'ai enfin des ongles !!!! Très belle prestation merci encore !!!!☺☺️</p>
+                </blockquote>
+                <figcaption><span class="rev__avatar" aria-hidden="true">I</span><cite>Isabelle Leven</cite></figcaption>
+              </figure>
+            </div>
+            <div class="rev" role="group" aria-roledescription="diapositive" aria-label="3 sur 5">
+              <figure>
+                <blockquote>
+                  <p>La pose complète a été réalisée avec un grand soin et je suis bluffée par ce magnifique résultat ! Merci beaucoup d'avoir fait de la place pour me recevoir. Je suis ravie de mes nouveaux ongles et de l'accueil que j'ai reçu !</p>
+                </blockquote>
+                <figcaption><span class="rev__avatar" aria-hidden="true">J</span><cite>Juliette Monfort</cite></figcaption>
+              </figure>
+            </div>
+            <div class="rev" role="group" aria-roledescription="diapositive" aria-label="4 sur 5">
+              <figure>
+                <blockquote>
+                  <p>Je suis très contente du résultat effectué par une personne très professionnelle et sympathique.<br>Un très bon accueil.<br>Je reviendrai sans hésiter</p>
+                </blockquote>
+                <figcaption><span class="rev__avatar" aria-hidden="true">C</span><cite>Chantou 83</cite></figcaption>
+              </figure>
+            </div>
+            <div class="rev rev--short" role="group" aria-roledescription="diapositive" aria-label="5 sur 5">
+              <figure>
+                <blockquote>
+                  <p>Parfait. Professionnelle charmante et très à l’écoute.</p>
+                </blockquote>
+                <figcaption><span class="rev__avatar" aria-hidden="true">C</span><cite>Chloé Jaouen</cite></figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel__ui">
+          <div class="carousel__count" aria-live="polite" aria-atomic="true"><b id="carCur">1</b> / 5</div>
+          <div class="carousel__dots" id="carDots" aria-hidden="true"></div>
+          <div class="carousel__btns">
+            <button class="round" type="button" id="carPause" aria-label="Mettre le défilement automatique en pause" aria-pressed="false">
+              <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg>
+              <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l11 7-11 7Z"/></svg>
+            </button>
+            <button class="round" type="button" id="carPrev" aria-label="Avis précédent"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+            <button class="round" type="button" id="carNext" aria-label="Avis suivant"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 10 · APPEL À L'ACTION ═════════ -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="wrap cta__grid">
+        <div class="cta__copy">
+          <h2 id="cta-title" data-split>Et si on s'occupait <em>de vos mains&nbsp;?</em></h2>
+          <p data-fade>Réservez en ligne en quelques clics, ou appelez-nous&nbsp;: on vous répond aux heures d'ouverture.</p>
+          <a class="phone" href="tel:+33983605131" aria-label="Appeler le 09 83 60 51 31" data-phone>09 83 60 51 31</a>
+        </div>
+        <a class="seal" href="https://www.planity.com/hand-institut-29200-brest" target="_blank" rel="noopener" aria-label="Prendre rendez-vous sur Planity (nouvel onglet)" data-magnetic data-cursor="RDV">
+          <svg class="seal__ring" viewBox="0 0 200 200" aria-hidden="true">
+            <defs><path id="sealPath" d="M100 100m-80 0a80 80 0 1 1 160 0a80 80 0 1 1-160 0"/></defs>
+            <text><textPath href="#sealPath" textLength="498" lengthAdjust="spacing">PRENDRE RENDEZ-VOUS · PRENDRE RENDEZ-VOUS · </textPath></text>
+          </svg>
+          <span class="seal__core"><span>Réserver</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ═════════ 11 · NOUS TROUVER ═════════ -->
+    <section class="find" id="infos" aria-labelledby="find-title">
+      <div class="wrap find__grid">
+        <div class="find__info">
+          <h2 id="find-title" data-split>Nous <em>trouver</em></h2>
+
+          <address class="find__addr">
+            <a class="link" href="https://maps.app.goo.gl/Mu6RtvkXkr82gVrv5" target="_blank" rel="noopener">10 Rue Keravel<br>29200 Brest</a>
+          </address>
+          <ul class="find__contact">
+            <li><a class="link" href="tel:+33983605131">09 83 60 51 31</a></li>
+            <li><a class="link" href="https://www.planity.com/hand-institut-29200-brest" target="_blank" rel="noopener">Réserver sur Planity</a></li>
+            <li><a class="link" href="https://maps.app.goo.gl/Mu6RtvkXkr82gVrv5" target="_blank" rel="noopener">Itinéraire sur Google Maps</a></li>
+          </ul>
+
+          <div class="hours" id="hours">
+            <p class="hours__status" id="openStatus" aria-live="polite"><i></i><span>Horaires</span></p>
+            <table>
+              <caption class="sr-only">Horaires d'ouverture</caption>
+              <tbody>
+                <tr data-day="1"><th scope="row">Lundi</th><td>9h30 – 15h00</td></tr>
+                <tr data-day="2"><th scope="row">Mardi</th><td>9h00 – 19h00</td></tr>
+                <tr data-day="3" class="is-closed"><th scope="row">Mercredi</th><td>Fermé</td></tr>
+                <tr data-day="4"><th scope="row">Jeudi</th><td>9h00 – 19h00</td></tr>
+                <tr data-day="5"><th scope="row">Vendredi</th><td>9h00 – 19h00</td></tr>
+                <tr data-day="6"><th scope="row">Samedi</th><td>9h00 – 17h30</td></tr>
+                <tr data-day="0" class="is-closed"><th scope="row">Dimanche</th><td>Fermé</td></tr>
+              </tbody>
+            </table>
+            <p class="hours__note">Les horaires peuvent être modifiés (jours fériés comme la Toussaint, congés)&nbsp;: au moindre doute, un coup de fil.</p>
+          </div>
+        </div>
+
+        <div class="find__map arch" data-cursor="Ouvrir">
+          <iframe title="Carte Google Maps : Hand Institut, 10 rue Keravel, 29200 Brest" src="https://www.google.com/maps?q=10+Rue+Keravel,+29200+Brest&amp;output=embed&amp;hl=fr" loading="lazy" referrerpolicy="no-referrer-when-downgrade" tabindex="-1"></iframe>
+          <a class="find__maplink" href="https://maps.app.goo.gl/Mu6RtvkXkr82gVrv5" target="_blank" rel="noopener" aria-label="Ouvrir l'adresse dans Google Maps (nouvel onglet)">
+            <span>Ouvrir dans Google Maps<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═════════ 12 · FOOTER ═════════ -->
+  <footer class="footer" data-dark>
+    <div class="wrap">
+      <div class="footer__top">
+        <nav aria-label="Pied de page">
+          <ul>
+            <li><a class="link" href="#prestations">Prestations</a></li>
+            <li><a class="link" href="#nuancier">Nuancier</a></li>
+            <li><a class="link" href="#salon">Le salon</a></li>
+            <li><a class="link" href="#avis">Avis</a></li>
+            <li><a class="link" href="#infos">Infos pratiques</a></li>
+          </ul>
+        </nav>
+        <div class="footer__col">
+          <p>10 Rue Keravel<br>29200 Brest</p>
+          <a class="link" href="tel:+33983605131">09 83 60 51 31</a>
+        </div>
+        <div class="footer__col">
+          <a class="link link--arrow" href="https://www.planity.com/hand-institut-29200-brest" target="_blank" rel="noopener">Planity — réserver en ligne
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+          <a class="link link--arrow" href="https://maps.app.goo.gl/Mu6RtvkXkr82gVrv5" target="_blank" rel="noopener">Google Maps
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+        </div>
+        <button class="totop" type="button" id="toTop" aria-label="Retour en haut de page">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+        </button>
+      </div>
+
+      <p class="footer__word" role="img" aria-label="Hand Institut"><span aria-hidden="true">Hand&nbsp;<em>Institut</em></span></p>
+
+      <div class="footer__bottom">
+        <p>© <span id="year">2026</span> Hand Institut · Institut de beauté à Brest</p>
+        <p>Les horaires peuvent être modifiés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <aside aria-label="Appel rapide"><a class="fab" id="fab" href="tel:+33983605131" aria-label="Appeler Hand Institut au 09 83 60 51 31">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg>
+    <span>Appeler</span>
+  </a></aside>
+
+  <script src="vendor/gsap.min.js"></script>
+  <script src="vendor/ScrollTrigger.min.js"></script>
+  <script src="vendor/SplitText.min.js"></script>
+  <script src="vendor/DrawSVGPlugin.min.js"></script>
+  <script src="vendor/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
